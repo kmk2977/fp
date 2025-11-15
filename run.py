@@ -1,3 +1,4 @@
+# run.py
 import datasets
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainingArguments, HfArgumentParser
@@ -47,6 +48,8 @@ def main():
                       help='Limit the number of examples to train on.')
     argp.add_argument('--max_eval_samples', type=int, default=None,
                       help='Limit the number of examples to evaluate on.')
+    argp.add_argument('--hypothesis_only', action='store_true',
+                      help='Use only the hypothesis for NLI tasks (hypothesis-only baseline).')
 
     training_args, args = argp.parse_args_into_dataclasses()
 
@@ -94,7 +97,7 @@ def main():
         prepare_eval_dataset = lambda exs: prepare_validation_dataset_qa(exs, tokenizer)
     elif args.task == 'nli':
         prepare_train_dataset = prepare_eval_dataset = \
-            lambda exs: prepare_dataset_nli(exs, tokenizer, args.max_length)
+            lambda exs: prepare_dataset_nli(exs, tokenizer, args.max_length, args.hypothesis_only)
         # prepare_eval_dataset = prepare_dataset_nli
     else:
         raise ValueError('Unrecognized task name: {}'.format(args.task))

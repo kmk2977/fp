@@ -1,0 +1,902 @@
+[
+  {
+    "premise": "Two people sit facing away in a downtown scene with a motorcycle parked in front of a pool",
+    "hypothesis": "Two individuals are seated with their backs turned in an urban area near a motorcycle and a pool.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Two people sit facing away in a downtown scene with a motorcycle parked in front of a pool",
+    "hypothesis": "Two people are having lunch at a rooftop restaurant.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Two people sit facing away in a downtown scene with a motorcycle parked in front of a pool",
+    "hypothesis": "There are no people sitting downtown.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A white dog with brown ears runs down a gravel path with a ball in its mouth.",
+    "hypothesis": "A dog is carrying a ball while running on a path.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A white dog with brown ears runs down a gravel path with a ball in its mouth.",
+    "hypothesis": "A dog is walking slowly near a garden.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A white dog with brown ears runs down a gravel path with a ball in its mouth.",
+    "hypothesis": "The dog is standing still and has no ball.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Six men, all wearing identifying number plaques, are participating in an outdoor race.",
+    "hypothesis": "Multiple men with race numbers are running outside.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Six men, all wearing identifying number plaques, are participating in an outdoor race.",
+    "hypothesis": "Six men are watching a race from the bleachers.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Six men, all wearing identifying number plaques, are participating in an outdoor race.",
+    "hypothesis": "The men are sitting indoors and not racing.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Five children of Indian origin are smiling and posing on a slide.",
+    "hypothesis": "Several children are on playground equipment and smiling.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Five children of Indian origin are smiling and posing on a slide.",
+    "hypothesis": "Five children are waiting in line for ice cream.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Five children of Indian origin are smiling and posing on a slide.",
+    "hypothesis": "There are no children on the slide.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Kids are on a amusement ride.",
+    "hypothesis": "Children are riding a fair attraction.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Kids are on a amusement ride.",
+    "hypothesis": "Kids are watching a movie in a theater.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Kids are on a amusement ride.",
+    "hypothesis": "The children are standing still on solid ground, far from any ride.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A black dog running in the snow by some trees.",
+    "hypothesis": "A dog is moving quickly through snow near trees.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A black dog running in the snow by some trees.",
+    "hypothesis": "A dog is sleeping on a rug indoors.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A black dog running in the snow by some trees.",
+    "hypothesis": "The dog is not moving and is inside a house.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A group of women in white robes walk through the grass.",
+    "hypothesis": "Women wearing white are walking outdoors on grass.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A group of women in white robes walk through the grass.",
+    "hypothesis": "The women are standing on a sidewalk in black coats.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A group of women in white robes walk through the grass.",
+    "hypothesis": "No women are walking through grass.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "One little toddler wearing blue pajamas and a little girl wearing red pajamas opening presents on christmas day.",
+    "hypothesis": "Two children in pajamas are unwrapping gifts on Christmas.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "One little toddler wearing blue pajamas and a little girl wearing red pajamas opening presents on christmas day.",
+    "hypothesis": "The children are eating breakfast on a weekday morning.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "One little toddler wearing blue pajamas and a little girl wearing red pajamas opening presents on christmas day.",
+    "hypothesis": "The children are not opening any presents.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Two children examine a stack of books and games, including the game \"Poncho Pal,\" next to a piece of furniture.",
+    "hypothesis": "Kids are looking at toys and books near furniture.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Two children examine a stack of books and games, including the game \"Poncho Pal,\" next to a piece of furniture.",
+    "hypothesis": "The children are playing soccer outside.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Two children examine a stack of books and games, including the game \"Poncho Pal,\" next to a piece of furniture.",
+    "hypothesis": "The children are ignoring all books and games.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A group of people is gathered around a table of food with their arms around each other.",
+    "hypothesis": "People are hugging near a table full of food.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A group of people is gathered around a table of food with their arms around each other.",
+    "hypothesis": "The group is standing in a parking lot holding umbrellas.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A group of people is gathered around a table of food with their arms around each other.",
+    "hypothesis": "No one is near the food table.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man in the middle east with a corn-on-the-cob cart selling corn.",
+    "hypothesis": "A vendor is selling corn from a cart in the Middle East.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man in the middle east with a corn-on-the-cob cart selling corn.",
+    "hypothesis": "The man is selling ice cream from a truck in Europe.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man in the middle east with a corn-on-the-cob cart selling corn.",
+    "hypothesis": "The man is not selling any food.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A cute puppy fetches a yellow ring chew toy in the yard.",
+    "hypothesis": "A dog is retrieving a yellow toy outside.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A cute puppy fetches a yellow ring chew toy in the yard.",
+    "hypothesis": "The puppy is sleeping on a couch indoors.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A cute puppy fetches a yellow ring chew toy in the yard.",
+    "hypothesis": "The puppy is ignoring all toys.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man in gray slacks and sweater observes marker placed in front of a fence in a field.",
+    "hypothesis": "A man is looking at a marker near a fence outdoors.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man in gray slacks and sweater observes marker placed in front of a fence in a field.",
+    "hypothesis": "The man is painting a portrait in a studio.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man in gray slacks and sweater observes marker placed in front of a fence in a field.",
+    "hypothesis": "The man is not looking at any marker.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "There is a large group of people in front of Papa John's restaurant.",
+    "hypothesis": "Many people are standing outside a pizza restaurant.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "There is a large group of people in front of Papa John's restaurant.",
+    "hypothesis": "A few people are eating inside a different restaurant.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "There is a large group of people in front of Papa John's restaurant.",
+    "hypothesis": "No one is outside Papa John's.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A bridal party assembles outside a stone building.",
+    "hypothesis": "A wedding group is gathered near a stone structure.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A bridal party assembles outside a stone building.",
+    "hypothesis": "The bridal party is dancing at a reception indoors.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A bridal party assembles outside a stone building.",
+    "hypothesis": "There is no bridal party outside any building.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Four people stand next to some bikes while one of them points.",
+    "hypothesis": "A group of people are near bicycles, and one is gesturing.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Four people stand next to some bikes while one of them points.",
+    "hypothesis": "The people are riding horses in a field.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Four people stand next to some bikes while one of them points.",
+    "hypothesis": "No one is near any bikes.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Man in a black suit, white shirt and black bowtie playing an instrument with the rest of his symphony surrounding him.",
+    "hypothesis": "A formally dressed man is performing music with an orchestra.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Man in a black suit, white shirt and black bowtie playing an instrument with the rest of his symphony surrounding him.",
+    "hypothesis": "The man is cooking in a kitchen alone.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Man in a black suit, white shirt and black bowtie playing an instrument with the rest of his symphony surrounding him.",
+    "hypothesis": "The man is not playing any instrument.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman is looking into a mirror, brushing her hair.",
+    "hypothesis": "A person is grooming herself using a mirror.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman is looking into a mirror, brushing her hair.",
+    "hypothesis": "The woman is washing dishes in the kitchen.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman is looking into a mirror, brushing her hair.",
+    "hypothesis": "The woman is not using a mirror or brushing her hair.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Two young men sitting at the end of a long table eating; there are 3 plates full of food, two glasses with a yellow colored drink and a small orange case on the table.",
+    "hypothesis": "Two men are eating at a table with food and drinks.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Two young men sitting at the end of a long table eating; there are 3 plates full of food, two glasses with a yellow colored drink and a small orange case on the table.",
+    "hypothesis": "The men are standing in a park flying a kite.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Two young men sitting at the end of a long table eating; there are 3 plates full of food, two glasses with a yellow colored drink and a small orange case on the table.",
+    "hypothesis": "The men are not eating and there is no food on the table.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man in a green Celtics hat and a woman wearing a black sweater display identical tattoos on their right wrists.",
+    "hypothesis": "A man and a woman show matching tattoos on their wrists.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man in a green Celtics hat and a woman wearing a black sweater display identical tattoos on their right wrists.",
+    "hypothesis": "The couple is shopping at a grocery store.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man in a green Celtics hat and a woman wearing a black sweater display identical tattoos on their right wrists.",
+    "hypothesis": "The man and woman have no tattoos.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Two men selling fruit at a fruit market.",
+    "hypothesis": "Vendors are offering fresh fruit for sale outdoors.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Two men selling fruit at a fruit market.",
+    "hypothesis": "The men are repairing bicycles in a garage.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Two men selling fruit at a fruit market.",
+    "hypothesis": "The men are not selling any fruit.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman watches a child play near a small pool.",
+    "hypothesis": "An adult is supervising a child next to a pool.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman watches a child play near a small pool.",
+    "hypothesis": "The woman and child are skiing on a mountain.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman watches a child play near a small pool.",
+    "hypothesis": "No adult is watching the child near the pool.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "The brown and white dog is playing in the snow.",
+    "hypothesis": "A dog with brown and white fur is active in snowy weather.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "The brown and white dog is playing in the snow.",
+    "hypothesis": "The dog is barking at a squirrel in a park.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "The brown and white dog is playing in the snow.",
+    "hypothesis": "The dog is not in the snow and is not playing.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman in a red shirt and blue jeans is walking outside while a man in a khaki jacket is right behind her.",
+    "hypothesis": "Two people are walking outdoors, one following the other.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman in a red shirt and blue jeans is walking outside while a man in a khaki jacket is right behind her.",
+    "hypothesis": "The woman is sitting alone on a bench.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman in a red shirt and blue jeans is walking outside while a man in a khaki jacket is right behind her.",
+    "hypothesis": "The woman is not walking and no man is behind her.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Four people, One male in a blue shirt and slacks with three females, one in pink, one in blue, and the other with a white shirt and blue blouse, in line to enter a yellow school bus, while a female in pink hold paper is on the phone.",
+    "hypothesis": "A group of people including men and women are waiting to board a yellow bus.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Four people, One male in a blue shirt and slacks with three females, one in pink, one in blue, and the other with a white shirt and blue blouse, in line to enter a yellow school bus, while a female in pink hold paper is on the phone.",
+    "hypothesis": "The people are boarding an airplane at the airport.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Four people, One male in a blue shirt and slacks with three females, one in pink, one in blue, and the other with a white shirt and blue blouse, in line to enter a yellow school bus, while a female in pink hold paper is on the phone.",
+    "hypothesis": "No one is near a yellow school bus.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A military group in uniform standing together while one of them gets their hat adjusted.",
+    "hypothesis": "Soldiers in uniform are gathered, and one is having their hat fixed.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A military group in uniform standing together while one of them gets their hat adjusted.",
+    "hypothesis": "The soldiers are swimming in a lake.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A military group in uniform standing together while one of them gets their hat adjusted.",
+    "hypothesis": "The group is not in uniform and no one is adjusting a hat.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man standing behind a small ice cream cart on a street corner.",
+    "hypothesis": "A vendor is at an ice cream stand on a city corner.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man standing behind a small ice cream cart on a street corner.",
+    "hypothesis": "The man is driving a taxi through downtown.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man standing behind a small ice cream cart on a street corner.",
+    "hypothesis": "There is no ice cream cart on the street corner.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Four older men are playing musical instruments in a park by a wall in traditional costume.",
+    "hypothesis": "Elderly men in traditional attire are performing music outdoors.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Four older men are playing musical instruments in a park by a wall in traditional costume.",
+    "hypothesis": "The men are playing chess at a library.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Four older men are playing musical instruments in a park by a wall in traditional costume.",
+    "hypothesis": "The men are not playing instruments and are not in a park.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "People riding an old looking trolley.",
+    "hypothesis": "Passengers are aboard a vintage trolley vehicle.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "People riding an old looking trolley.",
+    "hypothesis": "The people are walking along a beach.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "People riding an old looking trolley.",
+    "hypothesis": "No one is riding any trolley.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Asian workers assembling a wood project.",
+    "hypothesis": "People are constructing something out of wood.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Asian workers assembling a wood project.",
+    "hypothesis": "The workers are eating lunch at a food court.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Asian workers assembling a wood project.",
+    "hypothesis": "The workers are not building anything with wood.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.",
+    "hypothesis": "A female singer performs with a male guitarist accompanying her.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.",
+    "hypothesis": "The woman is giving a lecture in a classroom.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.",
+    "hypothesis": "The woman is not singing and the man is not playing guitar.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman in a white dress with one leg stops to read a poster.",
+    "hypothesis": "A woman pauses to look at a posted notice.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman in a white dress with one leg stops to read a poster.",
+    "hypothesis": "The woman is running a marathon in a sports outfit.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman in a white dress with one leg stops to read a poster.",
+    "hypothesis": "The woman is not reading any poster.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man painting in front of a storefront, his paintings are displayed.",
+    "hypothesis": "An artist is creating and showing artwork outside a shop.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man painting in front of a storefront, his paintings are displayed.",
+    "hypothesis": "The man is washing windows on a high-rise building.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man painting in front of a storefront, his paintings are displayed.",
+    "hypothesis": "The man is not painting and has no artwork shown.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man is singing on stage with his fingers in a stuffed bear's nose.",
+    "hypothesis": "A performer is on stage interacting with a toy bear while singing.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man is singing on stage with his fingers in a stuffed bear's nose.",
+    "hypothesis": "The man is giving a speech at a conference table.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man is singing on stage with his fingers in a stuffed bear's nose.",
+    "hypothesis": "The man is not on stage and not singing.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A person in gray snowboarding down a hill.",
+    "hypothesis": "Someone is snowboarding on a slope wearing gray.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A person in gray snowboarding down a hill.",
+    "hypothesis": "The person is sunbathing on a beach.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A person in gray snowboarding down a hill.",
+    "hypothesis": "No one is snowboarding down any hill.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "An Asian man attempting to repair a green bicycle outdoors while two other Asian men stand by.",
+    "hypothesis": "A man is fixing a bike outside while others watch.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "An Asian man attempting to repair a green bicycle outdoors while two other Asian men stand by.",
+    "hypothesis": "The men are playing basketball at a gym.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "An Asian man attempting to repair a green bicycle outdoors while two other Asian men stand by.",
+    "hypothesis": "No one is repairing a bicycle outdoors.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man and a woman at a meal, with a dog between them.",
+    "hypothesis": "A couple is eating with their pet nearby.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man and a woman at a meal, with a dog between them.",
+    "hypothesis": "The man and woman are hiking in the mountains without a dog.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man and a woman at a meal, with a dog between them.",
+    "hypothesis": "There is no dog between the man and woman, and they are not eating.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "An older man is walking in a large grassy area with a small plane in the background about to land.",
+    "hypothesis": "An elderly man is strolling in a field near an incoming aircraft.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "An older man is walking in a large grassy area with a small plane in the background about to land.",
+    "hypothesis": "The man is riding a subway in a big city.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "An older man is walking in a large grassy area with a small plane in the background about to land.",
+    "hypothesis": "The man is not walking in a grassy area and no plane is landing.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "a big tan dog drinks water from an outdoor water spout.",
+    "hypothesis": "A large tan-colored dog is drinking from a spigot outside.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "a big tan dog drinks water from an outdoor water spout.",
+    "hypothesis": "The dog is chasing a cat through a garden.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "a big tan dog drinks water from an outdoor water spout.",
+    "hypothesis": "The dog is not drinking from any outdoor spout.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Young soccer players, wearing blue and white jerseys, walk around while waiting for their turn or play to begin in a soccer match.",
+    "hypothesis": "Children in soccer uniforms are waiting before a game starts.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Young soccer players, wearing blue and white jerseys, walk around while waiting for their turn or play to begin in a soccer match.",
+    "hypothesis": "The kids are taking a math test in a classroom.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Young soccer players, wearing blue and white jerseys, walk around while waiting for their turn or play to begin in a soccer match.",
+    "hypothesis": "The children are not wearing jerseys and are not near a soccer field.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A man jumping sideways in the ocean.",
+    "hypothesis": "A person is leaping laterally in seawater.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A man jumping sideways in the ocean.",
+    "hypothesis": "The man is sleeping in a hammock under palm trees.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A man jumping sideways in the ocean.",
+    "hypothesis": "The man is standing still on dry land.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Several firemen stand or sit on a gray roof while working.",
+    "hypothesis": "Firefighters are on a roof performing duties.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Several firemen stand or sit on a gray roof while working.",
+    "hypothesis": "The firemen are eating breakfast at the fire station.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Several firemen stand or sit on a gray roof while working.",
+    "hypothesis": "No firemen are on any roof.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A woman wearing a black shirt is standing next to an old rusted vehicle.",
+    "hypothesis": "A woman in black is next to a worn-out car.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A woman wearing a black shirt is standing next to an old rusted vehicle.",
+    "hypothesis": "The woman is driving a new electric car on the highway.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A woman wearing a black shirt is standing next to an old rusted vehicle.",
+    "hypothesis": "The woman is not near any vehicle.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "a child is on the ground crying.",
+    "hypothesis": "A young kid is upset and sitting on the floor or earth.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "a child is on the ground crying.",
+    "hypothesis": "The child is laughing while swinging on a swing set.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "a child is on the ground crying.",
+    "hypothesis": "The child is not crying and is not on the ground.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "the shadow silhouette of a woman standing near the water looking at a large attraction on the other side.",
+    "hypothesis": "A woman’s outline is visible near a body of water as she gazes at a big landmark across from her.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "the shadow silhouette of a woman standing near the water looking at a large attraction on the other side.",
+    "hypothesis": "The woman is indoors reading a book by lamplight.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "the shadow silhouette of a woman standing near the water looking at a large attraction on the other side.",
+    "hypothesis": "There is no woman near any water or attraction.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Male volleyball players in red attempt to score on the other team, lighter red.",
+    "hypothesis": "Men in red uniforms are playing volleyball against another team.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Male volleyball players in red attempt to score on the other team, lighter red.",
+    "hypothesis": "The men are playing basketball in a gym.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Male volleyball players in red attempt to score on the other team, lighter red.",
+    "hypothesis": "No volleyball game is happening.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Two men, one with a camera and another with hair clippers are helping another man in kitchen.",
+    "hypothesis": "Two men are assisting a third man in a kitchen—one is holding a camera, the other has clippers.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Two men, one with a camera and another with hair clippers are helping another man in kitchen.",
+    "hypothesis": "The men are fishing on a boat at sea.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Two men, one with a camera and another with hair clippers are helping another man in kitchen.",
+    "hypothesis": "No one is in the kitchen and no one has clippers or a camera.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "People sit around tables watching intently under a cloth covering.",
+    "hypothesis": "Individuals are seated beneath a canopy, focused on something.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "People sit around tables watching intently under a cloth covering.",
+    "hypothesis": "The people are running a marathon in the rain.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "People sit around tables watching intently under a cloth covering.",
+    "hypothesis": "No one is sitting under any cloth covering.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "A hiker pokes his head out of a tent high in the mountains.",
+    "hypothesis": "A camper is looking out from a tent in elevated terrain.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "A hiker pokes his head out of a tent high in the mountains.",
+    "hypothesis": "The hiker is checking into a hotel in the city.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "A hiker pokes his head out of a tent high in the mountains.",
+    "hypothesis": "No one is in a mountain tent.",
+    "label": 2,
+    "category": "contradiction"
+  },
+  {
+    "premise": "Musicians are performing on stage.",
+    "hypothesis": "People are playing music live in front of an audience.",
+    "label": 0,
+    "category": "entailment"
+  },
+  {
+    "premise": "Musicians are performing on stage.",
+    "hypothesis": "The musicians are at home watching TV.",
+    "label": 1,
+    "category": "neutral"
+  },
+  {
+    "premise": "Musicians are performing on stage.",
+    "hypothesis": "No musical performance is happening on any stage.",
+    "label": 2,
+    "category": "contradiction"
+  }
+]
